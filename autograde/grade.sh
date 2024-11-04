@@ -3,7 +3,7 @@
 cd /home/coder/project/autograde/
 git clone https://github.com/hergin/cs690-coursera-hellodictionary
 
-cp /shared/submission/Program.cs /home/coder/project/autograde/cs690-coursera-hellodictionary/full/PrimeService/PrimeService.cs
+cp /shared/submission/Program.cs /home/coder/project/autograde/cs690-coursera-hellodictionary/full/BattleShip/Program.cs
 cd /home/coder/project/autograde/cs690-coursera-hellodictionary/full
 
 test_result="$(dotnet test --nologo -v q)"
